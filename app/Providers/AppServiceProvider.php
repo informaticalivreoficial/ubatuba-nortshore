@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //URL::forceScheme('https');
-        $configuracoes = \App\Models\Tenant::find(2); 
-        View()->share('configuracoes', $configuracoes);
+        // $configuracoes = \App\Models\Tenant::find(2); 
+        // View()->share('configuracoes', $configuracoes);
     }
 }

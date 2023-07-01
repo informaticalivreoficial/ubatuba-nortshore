@@ -49,15 +49,7 @@ class Tenant extends Model
         'sitemap_data',
         'politicas_de_privacidade'    
     ];
-
-    public static function boot()
-    {
-        parent::boot();
-        self::creating(function($model){
-            $model->uuid = Str::uuid();
-        });
-    }
-
+    
     /**
      * Relacionamentos
     */

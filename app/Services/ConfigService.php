@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Storage;
 class ConfigService
 {
     protected $configRepository;
-    protected $idConfig = 1;
+    protected $idConfig = 2;
 
     public function __construct(ConfigRepository $configRepository)
     {
